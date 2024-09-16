@@ -1,6 +1,6 @@
 function firstWord(s) {
   // your code here
-	s.trim();
+	s=s.trim();
 	const spIdx=s.indexOf(' ');
 	if(spIdx===-1){
 		return s;
@@ -9,6 +9,7 @@ function firstWord(s) {
 		return s.substring(0, spIdx);
 	
 }
+
 
 // Do not change the code below
 
