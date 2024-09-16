@@ -2,7 +2,7 @@ function firstWord(s) {
   // your code here
 	s.trim();
 	const spIdx=s.indexOf(' ');
-	if(spIdx=-1){
+	if(spIdx==-1){
 		return s;
 	}
 	else{
@@ -11,6 +11,8 @@ function firstWord(s) {
 }
 
 // Do not change the code below
+
+
 
 const s = prompt("Enter String:");
 alert(firstWord(s));
